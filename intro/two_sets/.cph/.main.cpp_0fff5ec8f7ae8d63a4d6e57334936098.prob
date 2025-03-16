@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/intro/two_sets/main.cpp","tests":[{"id":1741113563415,"input":"6","output":"NO"},{"id":1741113569781,"input":"7","output":"YES\n3\n2 5 7\n4\n1 6 3 4 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/intro/two_sets/main.cpp","group":"local","local":true}
