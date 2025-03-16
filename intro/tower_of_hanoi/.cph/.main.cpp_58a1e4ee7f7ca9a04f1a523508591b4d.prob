@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/intro/tower_of_hanoi/main.cpp","tests":[{"id":1741261806219,"input":"2","output":"3\n1 2\n1 3\n2 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/intro/tower_of_hanoi/main.cpp","group":"local","local":true}
