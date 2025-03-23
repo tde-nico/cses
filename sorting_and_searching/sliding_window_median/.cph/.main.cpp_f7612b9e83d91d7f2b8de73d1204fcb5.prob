@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/sorting_and_searching/sliding_window_median/main.cpp","tests":[{"id":1742639436910,"input":"8 3\n2 4 3 5 8 1 2 1","output":"3 4 5 5 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/sorting_and_searching/sliding_window_median/main.cpp","group":"local","local":true}
