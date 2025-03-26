@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/sorting_and_searching/sum_of_four_values/main.cpp","tests":[{"id":1742578168501,"input":"8 15\n3 2 5 8 1 3 2 3","output":"5 1 6 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/sorting_and_searching/sum_of_four_values/main.cpp","group":"local","local":true}
