@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/graph_algorithms/road_trip/main.cpp","tests":[{"id":1742842826192,"input":"5 6\n1 3\n1 2\n5 3\n1 5\n2 4\n4 5","output":"4\n5 3 1 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/graph_algorithms/road_trip/main.cpp","group":"local","local":true}
