@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/intro/string_reorder/main.cpp","tests":[{"id":1747300379174,"input":"HATTIVATTI","output":"AHATITITVT"},{"id":1747306588008,"input":"AAABB","output":"ABABA"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/intro/string_reorder/main.cpp","group":"local","local":true}
