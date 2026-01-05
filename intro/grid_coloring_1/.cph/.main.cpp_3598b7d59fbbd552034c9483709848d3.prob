@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/intro/grid_coloring_1/main.cpp","tests":[{"id":1767650740787,"input":"3 4\nAAAA\nBBBB\nCCDD","output":"BCBC\nADAD\nBABA"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/intro/grid_coloring_1/main.cpp","group":"local","local":true}
