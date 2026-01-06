@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/geometry/maximum_manhattan_distance/main.cpp","tests":[{"id":1767694167039,"input":"5\n1 1\n3 2\n2 4\n2 1\n4 5","output":"0\n3\n4\n4\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/geometry/maximum_manhattan_distance/main.cpp","group":"local","local":true}
