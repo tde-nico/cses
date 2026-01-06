@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/geometry/all_manhattan_distances/main.cpp","tests":[{"id":1767694661929,"input":"5\n1 1\n3 2\n2 4\n2 1\n4 5","output":"36"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/geometry/all_manhattan_distances/main.cpp","group":"local","local":true}
