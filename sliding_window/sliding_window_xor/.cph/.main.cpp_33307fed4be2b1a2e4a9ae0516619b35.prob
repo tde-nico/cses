@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"/mnt/c/Users/tommy/Desktop/cses/sliding_window/sliding_window_xor/main.cpp","tests":[{"id":1767873341997,"input":"8 5\n3 7 1 11","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/c/Users/tommy/Desktop/cses/sliding_window/sliding_window_xor/main.cpp","group":"local","local":true}
