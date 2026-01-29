@@ -1,0 +1,78 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+
+const ll INF = 1e18;
+
+struct Line {
+	ll a, b;
+	ll operator()(ll x) { return a * x + b; }
+};
+
+struct LiChao {
+	ll n;
+	vector<Line> t;
+	
+	LiChao(ll N) {
+		n = 1;
+		while (n < N) n <<= 1;
+		t.assign(2*n, Line{0, -INF});
+	}
+
+	void add(Line line, ll i=1, ll l=0, ll r=-1) {
+		if (r == -1) r = n;
+		while (true) {
+			ll m = (l + r) / 2;
+			bool left = line(l) > t[i](l);
+			bool mid = line(m) > t[i](m);
+			if (mid) swap(t[i], line);
+			if (r-l <= 1) break;
+			if (left != mid) {
+				r = m;
+				i = i*2;
+			} else {
+				l = m;
+				i = i*2+1;
+			}
+		}
+	}
+
+	void add_segment(ll i, ll l, ll r, ll ql, ll qr, Line line) {
+		if (qr <= l || r <= ql) return;
+		if (ql <= l && r <= qr) {
+			add(line, i, l, r);
+			return;
+		}
+
+		ll m = (l + r) / 2;
+		add_segment(i*2, l, m, ql, qr, line);
+		add_segment(i*2+1, m, r, ql, qr, line);
+	}
+
+	void add_segment(Line line, ll l, ll r) { add_segment(1, 0, n, l, r, line); }
+
+	ll query(ll x) {
+		ll res = -INF;
+		for (ll i = x+n; i; i >>= 1) res = max(res, t[i](x));
+		if (res == -INF) return -1;
+		else return res;
+	}
+};
+
+int main() {
+	ll n, m;
+	cin >> n >> m;
+	LiChao lc(m+1);
+	for (ll i = 0; i < n; ++i) {
+		ll x1, y1, x2, y2;
+		cin >> x1 >> y1 >> x2 >> y2;
+		ll slope = (y2 - y1) / (x2 - x1);
+		Line line = {slope, y1 - slope*x1};
+		lc.add_segment(line, x1, x2+1);
+	}
+
+	for (ll i = 0; i <= m; ++i) {
+		cout << lc.query(i) << " ";
+	}
+	cout << "\n";
+}
