@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\Users\\tommy\\Desktop\\cses\\geometry\\lines_and_queries_2\\main.cpp","tests":[{"id":1767994893304,"input":"6\n1 1 2 1 3\n2 3\n2 4\n1 0 4 1 5\n2 3\n2 4","output":"5\nNO\n5\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\tommy\\Desktop\\cses\\geometry\\lines_and_queries_2\\main.cpp","group":"local","local":true}
